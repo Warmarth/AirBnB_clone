@@ -3,4 +3,4 @@ AlxBnB is a complete web application, integrating database storage, a back-end A
 This project is handled by
 
 Godson Sombinyerechukwu <godsonibeaka@gmail.com>
-Olajumoke Ogunleke <juniqueluv>
+Olajumoke Ogunleke <oolajumoke099@gmail.com>
