@@ -3,6 +3,7 @@
 ### Project By  Marvelous and Mahadi
 ### Started: 2022-11-21
 
+<<<<<<< HEAD
 
 ## Description
 The AirBnb Clone is the ultimate project in ALX SE programme, its in phases with each phase building upon the previous untill a complete and sophisticated WebApp is build.
@@ -43,3 +44,7 @@ Type help to see the list of commands and how to use them.
 ## Models
 * [User](models/user.py)
 * [Place](models/place.py)
+=======
+Godson Sombinyerechukwu <godsonibeaka@gmail.com>
+Olajumoke Ogunleke <oolajumoke099@gmail.com>
+>>>>>>> fadbc48075d029ed438448b8e30e48fdc93baa5e
