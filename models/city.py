@@ -1,19 +1,15 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
+"""Define the city class"""
 
-"""`City` class module"""
-
-
-
-from .base_model import BaseModel
-
-
-
+from models.base_model import BaseModel
+import uuid
 
 
 class City(BaseModel):
-
-    """A class that represent a city"""
-
+    """Represents a city
+    Attributes:
+        state_id (str): State id
+        name (str): State name
+    """
     state_id = ""
-
     name = ""

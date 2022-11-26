@@ -1,17 +1,13 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
+"""Define the amenity class"""
 
-"""`Amenity` class module"""
-
-
-
-from .base_model import BaseModel
-
-
-
+from models.base_model import BaseModel
+import uuid
 
 
 class Amenity(BaseModel):
-
-    """A class that represent an amenity"""
-
+    """Represents a amenity
+    Attributes:
+        name (str): state name
+    """
     name = ""
