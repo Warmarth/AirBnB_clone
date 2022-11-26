@@ -1,25 +1,26 @@
-#!/usr/bin/env python3
-
-"""Module file for `User` class"""
+#!/usr/bin/python3
 
 
-
-from .base_model import BaseModel
-
+"""Define the user class"""
 
 
+import uuid
+from models.base_model import BaseModel
 
 
 class User(BaseModel):
 
-    """A class that represent a User"""
 
+    """Represent a User
+    Attributes:
+        email (str): user email
+        password (str): user password
+        first_name (str): first name
+        last_name (str): last name
 
+    """
 
     email = ""
-
     password = ""
-
     first_name = ""
-
     last_name = ""

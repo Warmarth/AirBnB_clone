@@ -1,17 +1,16 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
-"""`State` class module"""
+"""Define the state class"""
 
-
-
-from .base_model import BaseModel
-
-
-
+import uuid
+from models.base_model import BaseModel
 
 
 class State(BaseModel):
 
-    """A class that represent a state"""
+    """Represents a state
+    Attributes:
+        name (str): state name
+    """
 
     name = ""
