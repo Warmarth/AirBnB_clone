@@ -10,11 +10,9 @@ import models
 class BaseModel:
     """Base class for all models"""
 
-
     def __init__(self, *args, **kwargs):
         """
         Initialize a new BaseModel class.
-
         Args:
             *args (any): anonymous arguments (unused)
             **kwargs (dict): Key/value pairs of attributes.
@@ -34,14 +32,12 @@ class BaseModel:
         else:
             models.storage.new(self)
 
-
     def save(self):
         """
         Updates updated_at with the current datetime
         """
         self.updated_at = datetime.now()
         models.storage.save()
-
 
     def to_dict(self):
         """
@@ -56,11 +52,9 @@ class BaseModel:
 
         return classDict
 
-
     def __str__(self):
         """
         Representation of BaseModel instances
         """
-
         clsName = self.__class__.__name__
         return "[{}] ({}) {}".format(clsName, self.id, self.__dict__)
