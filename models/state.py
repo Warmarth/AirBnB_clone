@@ -1,13 +1,15 @@
 #!/usr/bin/python3
-"""Define the state class"""
 
-import uuid
+"""This file defines the State Model
+It inherits from the BaseModel
+"""
+
+
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """Represents a state
-    Attributes:
-        name (str): state name
-    """
-    name = ""
+    """The State Model"""
+
+    # Attributes
+    name: str = ""
